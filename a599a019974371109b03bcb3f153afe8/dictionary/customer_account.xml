@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element audit="true" db_object_id="bb5c1fb7972031109b03bcb3f153afac" extends="core_company" label="Account" max_length="40" name="customer_account" text_index="true" type="collection">
+    <element audit="true" db_object_id="c064d100a84331107f4443010997ab98" extends="core_company" label="Account" max_length="40" name="customer_account" text_index="true" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="my column" max_length="40" name="u_my_column" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="new column 2" max_length="40" name="u_new_column_2" type="string"/>
     </element>
 </database>
